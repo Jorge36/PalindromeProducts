@@ -24,3 +24,5 @@ The smallest palindrome product is 1. Its factors are (1, 1). The largest palind
 Given the range [10, 99] (both inclusive)...
 
 The smallest palindrome product is 121. Its factors are (11, 11). The largest palindrome product is 9009. Its factors are (91, 99).
+
+This algorithm is in O(n^2).
