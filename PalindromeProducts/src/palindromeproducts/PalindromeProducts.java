@@ -27,7 +27,7 @@ public class PalindromeProducts {
         int n2 = 9;
         // position used to print the products
         int pos = 1;
-        // to save all the products
+        // to save the result of all the products
         HashSet<Integer> products = new HashSet<>();
         // current product
         int product;
