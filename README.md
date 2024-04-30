@@ -2,7 +2,9 @@
 Application was develped in Apache Netbeans 21 on Ubuntu 20.04.
 
 Product Version: Apache NetBeans IDE 21
+
 Java: 17.0.10; OpenJDK 64-Bit Server VM 17.0.10+7-Ubuntu-120.04.1
+
 Runtime: OpenJDK Runtime Environment 17.0.10+7-Ubuntu-120.04.1
 
 Detect palindrome products in a given range.
