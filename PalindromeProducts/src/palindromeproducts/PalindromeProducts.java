@@ -22,11 +22,13 @@ public class PalindromeProducts {
     public static void main(String[] args) {
         // TODO code application logic here
         // start of range
-        int n1 = 1;
+        int n1 = 10;
         // end of range
-        int n2 = 9;
+        int n2 = 99;
         // position used to print the products
         int pos = 1;
+        // boolean used to print elements
+        boolean noFirstElement = false;
         // to save the result of all the products
         HashSet<Integer> products = new HashSet<>();
         // current product
@@ -42,16 +44,23 @@ public class PalindromeProducts {
                 
                 // generate current product
                 product = i * j;
-                                
+                                                
                 // if the current product is not in the set
                 if (!products.contains(product)) {
+                    
+                    if (noFirstElement) 
+                        System.out.print(", ");
+                    
                     // print product
-                    System.out.println(pos + ": " + product);
+                    System.out.print("[" + pos + ": " + product + "]");
                     ++pos;
                     // add current product to the set
                     products.add(product);
                     // add product and their multiplicand and multiplier to the hash map
                     numbers.put(product, new Number(product, new Pair(i , j)));
+                    // to start to print commas
+                    noFirstElement = true;
+                    
                 } else {
                     // otherwise only add the multiplicand and multiplier for current product to the hash map
                     numbers.get(product).addPair(new Pair(i,j));
@@ -104,6 +113,7 @@ public class PalindromeProducts {
             }    
         }
         // print results
+        System.out.println(System.getProperty("line.separator"));
 
         System.out.println("min" + ": " + min);
         
