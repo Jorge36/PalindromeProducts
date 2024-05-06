@@ -33,4 +33,9 @@ Given the range [10, 99] (both inclusive)...
 
 The smallest palindrome product is 121. Its factors are (11, 11). The largest palindrome product is 9009. Its factors are (91, 99).
 
+**Testing**
+
+![alt_text](https://github.com/Jorge36/PalindromeProducts/blob/c561cd27154352e2131b08132782adcb33a6318d/Testing/%5B1%2C9%5D.png)
+
+![alt_text](https://github.com/Jorge36/PalindromeProducts/blob/c561cd27154352e2131b08132782adcb33a6318d/Testing/%5B10%2C99%5D.png)
 This algorithm is in O(n^2).
