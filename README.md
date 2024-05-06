@@ -35,9 +35,16 @@ The smallest palindrome product is 121. Its factors are (11, 11). The largest pa
 
 This algorithm is in O(n^2).
 
-**Testing**
+# Testing
+
+**Input: [1,9]**
+
+**Output:**
 
 ![alt_text](https://github.com/Jorge36/PalindromeProducts/blob/c561cd27154352e2131b08132782adcb33a6318d/Testing/%5B1%2C9%5D.png)
 
+**Input: [10,99]**
+
+**Output:**
 ![alt_text](https://github.com/Jorge36/PalindromeProducts/blob/c561cd27154352e2131b08132782adcb33a6318d/Testing/%5B10%2C99%5D.png)
 
